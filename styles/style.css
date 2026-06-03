@@ -1,0 +1,21 @@
+h1, h2, p {
+    /* change la couleur du texte */
+    color: chartreuse;
+}
+
+/* toutes les balises avec la classe texte-rouge */
+/* les régles des classes sont priorités sur celles des balises */
+.texte-rouge {
+    color: red;
+}
+
+#titre-principale {
+    color: pink;
+}
+
+#block-liste {
+    border: 1px;
+    border-color: blue;
+    border-style: dotted;
+    border-radius: 25px;
+}
