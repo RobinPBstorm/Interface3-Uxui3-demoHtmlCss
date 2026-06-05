@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="./index.html">Retour la page d'accueil</a>
+
+    <p>On proposes à l'utilisateur/utilisatrice de rentrer des lettres pour qu'il puisse avoir un indice pour le mot à trouver.</p>
+    <p>Le/La joueur/joueuse a droit à 6 échecs (mauvaises lettres proposées).</p>
+    <p>Pour gagner, il/elle devra trouver le mot caché.</p>
+
+    <div id="tentativeRestante">
+
+    </div>
+    <div>
+        <h1 id="motCache"></h1>
+    </div>
+    <div>
+        <input type="text" id="entrée-utilisateur">
+        <button id="boutton-validation" 
+            onclick="validationProposition()">Valider</button>
+    </div>
+    <div>
+        <button onclick="restart()">Rejouer</button>
+    </div>
+
+    <script src="./scripts/jeu-pendu.js"></script>
+</body>
+</html>
